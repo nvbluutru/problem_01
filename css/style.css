@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.list {
+  max-width: 600px;
+  margin: 200px auto 0;
+  padding: 20px;
+  border: 1px solid #000;
+}
+.list__heading,
+.list__tutorial {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.list__form {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 80%;
+  margin: 0 auto 30px;
+}
+.list__input {
+  height: 40px;
+  flex-basis: 100%;
+}
+.list__submit {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.list__submit i {
+  font-size: 20px;
+  color: #1b8df1;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #1b8df1;
+  border-radius: 50%;
+}
+.list__item {
+  border: 1px solid #aabeda;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  height: 40px;
+  padding: 0 5px;
+  border-radius: 5px;
+  background-color: #dae8fc;
+  cursor: pointer;
+}
+.list__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+.list__item.green {
+  border-color: #aaca9a;
+  background-color: #d6e8d5;
+}
+.list__item i {
+  font-size: 35px;
+  cursor: pointer;
+}
+.list__mesage {
+  text-align: center;
+  padding: 10px 5px;
+  width: 70%;
+  margin: 20px auto 0;
+  border-radius: 20px;
+}
+.list__mesage.green {
+  color: green;
+  background-color: rgba(0, 128, 0, 0.2);
+}
+.list__mesage.error {
+  color: #ff0000;
+  background-color: rgba(255, 0, 0, 0.2);
+}
